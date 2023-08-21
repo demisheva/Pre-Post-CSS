@@ -2,8 +2,6 @@
 KOALA   Pre &amp; Post Processing CSS
 
 <h1>TASK</h1>
-<p>In this archive you can find an index.html file with provided page images, some prepared .scss files, and a design/ folder with expected results.</p>
-
 <p>Your task is to generate two different css files according to design.</p>
 <ul>
 <li>All required rules and mixins should be written in _main.scss and variables should be defined in _variables1.scss and _variables2.scss files</li>
