@@ -1,0 +1,221 @@
+.fontWeight, html .container header .header__image .header__text, body .container header .header__image .header__text, html .container main .main-row h2, body .container main .main-row h2, html .container main .main-row #main-row__hot-tours, body .container main .main-row #main-row__hot-tours, html .container main .main-row .search-individual-tour h3, body .container main .main-row .search-individual-tour h3 {
+  font-family: system-ui;
+  font-weight: 200; }
+
+html, body {
+  margin: 0; }
+  html .container header .header__image, body .container header .header__image {
+    height: 100vh;
+    background-image: url("./../img/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%; }
+    html .container header .header__image nav, body .container header .header__image nav {
+      display: grid; }
+      html .container header .header__image nav ul, body .container header .header__image nav ul {
+        width: 40vw;
+        font-size: 1.5em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); }
+        html .container header .header__image nav ul li, body .container header .header__image nav ul li {
+          color: #dfc1d9;
+          display: inline;
+          text-align: center;
+          cursor: pointer; }
+          html .container header .header__image nav ul li:hover, body .container header .header__image nav ul li:hover {
+            color: #9f86a2; }
+    html .container header .header__image .header__text, body .container header .header__image .header__text {
+      padding: 5vw;
+      margin: 10vw auto;
+      font-size: 3em;
+      color: #ddd;
+      text-align: center;
+      width: 50vw; }
+      html .container header .header__image .header__text button, body .container header .header__image .header__text button {
+        background: transparent;
+        border: 1px solid gray;
+        color: gray;
+        padding: 1vw 2vw;
+        cursor: pointer; }
+        html .container header .header__image .header__text button:hover, body .container header .header__image .header__text button:hover {
+          color: white;
+          background-color: #0000005e; }
+  html .container main .main-row, body .container main .main-row {
+    display: grid;
+    grid-gap: 3vw;
+    margin: 2vw 20vw;
+    justify-content: center; }
+    html .container main .main-row h2, body .container main .main-row h2 {
+      margin: 0;
+      font-size: 1.2em;
+      text-align: center; }
+    html .container main .main-row .main-card, body .container main .main-row .main-card {
+      display: grid;
+      box-shadow: 0 0 10px gray;
+      grid-template-columns: 1fr 3fr; }
+      html .container main .main-row .main-card h2, body .container main .main-row .main-card h2 {
+        color: #9f86a2; }
+      html .container main .main-row .main-card .main-card__text, body .container main .main-row .main-card .main-card__text {
+        color: #69395e;
+        padding: 2vh;
+        align-content: center;
+        display: grid; }
+      html .container main .main-row .main-card .card__image, body .container main .main-row .main-card .card__image {
+        height: 100%;
+        min-height: 5vw;
+        align-self: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: top; }
+      html .container main .main-row .main-card .card__image-first, body .container main .main-row .main-card .card__image-first {
+        background-image: url("./../img/5.jpeg"); }
+      html .container main .main-row .main-card .card__image-second, body .container main .main-row .main-card .card__image-second {
+        background-image: url("./../img/6.jpg"); }
+      html .container main .main-row .main-card .card__image-three, body .container main .main-row .main-card .card__image-three {
+        background-image: url("./../img/7.jpg"); }
+    html .container main .main-row #main-row__hot-tours, body .container main .main-row #main-row__hot-tours {
+      font-size: 3em; }
+    html .container main .main-row .main-review, body .container main .main-row .main-review {
+      background-color: #8a6f8d;
+      width: 80vw;
+      display: grid;
+      padding: 1vw; }
+      html .container main .main-row .main-review h2, body .container main .main-row .main-review h2 {
+        color: #caa2cb;
+        font-size: 2em;
+        margin-bottom: 1vw; }
+      html .container main .main-row .main-review .reviews, body .container main .main-row .main-review .reviews {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1vw; }
+        html .container main .main-row .main-review .reviews .review-card, body .container main .main-row .main-review .reviews .review-card {
+          padding: 1vh;
+          display: grid;
+          background: #9d7a86;
+          grid-template-columns: 1fr 3fr; }
+          html .container main .main-row .main-review .reviews .review-card .circle-image, body .container main .main-row .main-review .reviews .review-card .circle-image {
+            width: 10vh;
+            height: 10vh;
+            border-radius: 50%; }
+          html .container main .main-row .main-review .reviews .review-card .review-card__text, body .container main .main-row .main-review .reviews .review-card .review-card__text {
+            display: grid;
+            padding: 0 2vh;
+            align-content: center;
+            color: white; }
+            html .container main .main-row .main-review .reviews .review-card .review-card__text span, body .container main .main-row .main-review .reviews .review-card .review-card__text span {
+              font-style: italic; }
+    html .container main .main-row .search-individual-tour, body .container main .main-row .search-individual-tour {
+      width: 50vw;
+      padding: 1vw;
+      background-color: #9f86a2; }
+      html .container main .main-row .search-individual-tour h3, body .container main .main-row .search-individual-tour h3 {
+        font-size: 2em;
+        text-align: center;
+        color: #dfc1d9; }
+      html .container main .main-row .search-individual-tour .search-form, body .container main .main-row .search-individual-tour .search-form {
+        display: grid;
+        grid-column-gap: .5vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center; }
+        html .container main .main-row .search-individual-tour .search-form .date, body .container main .main-row .search-individual-tour .search-form .date {
+          display: grid;
+          grid-column-gap: .5vw;
+          grid-template-columns: 1fr 1fr; }
+        html .container main .main-row .search-individual-tour .search-form .country .search-form__inputs,
+        html .container main .main-row .search-individual-tour .search-form .date .there .search-form__inputs, html .container main .main-row .search-individual-tour .search-form .date .back .search-form__inputs,
+        html .container main .main-row .search-individual-tour .search-form .tourists-count .search-form__inputs, body .container main .main-row .search-individual-tour .search-form .country .search-form__inputs,
+        body .container main .main-row .search-individual-tour .search-form .date .there .search-form__inputs, body .container main .main-row .search-individual-tour .search-form .date .back .search-form__inputs,
+        body .container main .main-row .search-individual-tour .search-form .tourists-count .search-form__inputs {
+          padding: 0.5vh;
+          border: 0;
+          border-radius: 0;
+          background-color: #9f86a2;
+          border-bottom: 1px solid #725e68;
+          color: #725e68; }
+  html .container footer, body .container footer {
+    display: grid;
+    height: 100%;
+    padding: 1vw 0 2vw;
+    grid-template-columns: repeat(3, 1fr);
+    background: #5d3d85;
+    margin-top: 8vh; }
+    html .container footer .social-network, body .container footer .social-network {
+      padding-left: 2vw; }
+      html .container footer .social-network img, body .container footer .social-network img {
+        width: 2vw;
+        height: 2vw;
+        padding-right: 1vw; }
+      html .container footer .social-network h3, body .container footer .social-network h3 {
+        color: #65dafe;
+        margin: 0 0 1vw 0; }
+      html .container footer .social-network .social-network__copyright, body .container footer .social-network .social-network__copyright {
+        color: #4f0a5e;
+        padding-top: 2vw; }
+    html .container footer .footer__menu, body .container footer .footer__menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      html .container footer .footer__menu .tourism h3,
+      html .container footer .footer__menu .contacts h3,
+      html .container footer .footer__menu .send-email h3, body .container footer .footer__menu .tourism h3,
+      body .container footer .footer__menu .contacts h3,
+      body .container footer .footer__menu .send-email h3 {
+        margin: 0 0 .5vw;
+        color: #65dafe; }
+      html .container footer .footer__menu .tourism ul,
+      html .container footer .footer__menu .contacts ul,
+      html .container footer .footer__menu .send-email ul, body .container footer .footer__menu .tourism ul,
+      body .container footer .footer__menu .contacts ul,
+      body .container footer .footer__menu .send-email ul {
+        margin: 0;
+        padding: 0 0 0 1vw;
+        width: 100%; }
+        html .container footer .footer__menu .tourism ul li,
+        html .container footer .footer__menu .contacts ul li,
+        html .container footer .footer__menu .send-email ul li, body .container footer .footer__menu .tourism ul li,
+        body .container footer .footer__menu .contacts ul li,
+        body .container footer .footer__menu .send-email ul li {
+          list-style-type: none; }
+          html .container footer .footer__menu .tourism ul li a,
+          html .container footer .footer__menu .contacts ul li a,
+          html .container footer .footer__menu .send-email ul li a, body .container footer .footer__menu .tourism ul li a,
+          body .container footer .footer__menu .contacts ul li a,
+          body .container footer .footer__menu .send-email ul li a {
+            color: #8a46de;
+            text-decoration: none;
+            font-size: 1em; }
+            html .container footer .footer__menu .tourism ul li a:hover,
+            html .container footer .footer__menu .contacts ul li a:hover,
+            html .container footer .footer__menu .send-email ul li a:hover, body .container footer .footer__menu .tourism ul li a:hover,
+            body .container footer .footer__menu .contacts ul li a:hover,
+            body .container footer .footer__menu .send-email ul li a:hover {
+              color: #4f0a5e; }
+    html .container footer .feedback_and_payments, body .container footer .feedback_and_payments {
+      display: grid; }
+      html .container footer .feedback_and_payments .send-email, body .container footer .feedback_and_payments .send-email {
+        padding-right: 2vw; }
+        html .container footer .feedback_and_payments .send-email button, body .container footer .feedback_and_payments .send-email button {
+          margin-top: 1vw;
+          background: #5d3d85;
+          padding: .5vw;
+          width: 100%;
+          border: 0;
+          cursor: pointer;
+          color: white; }
+          html .container footer .feedback_and_payments .send-email button:hover, body .container footer .feedback_and_payments .send-email button:hover {
+            background: #65dafe;
+            color: white; }
+        html .container footer .feedback_and_payments .send-email input, body .container footer .feedback_and_payments .send-email input {
+          width: 97%;
+          border: 0;
+          padding: .5vw;
+          color: #8a769f; }
+      html .container footer .feedback_and_payments .payments h3, body .container footer .feedback_and_payments .payments h3 {
+        color: #65dafe;
+        margin: 1vw 0 0; }
+      html .container footer .feedback_and_payments .payments .payments__image img, body .container footer .feedback_and_payments .payments .payments__image img {
+        width: 3vw;
+        padding-right: 1vw; }
+
+/*# sourceMappingURL=style2.css.map */

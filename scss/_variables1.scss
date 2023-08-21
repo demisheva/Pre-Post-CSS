@@ -1,0 +1,42 @@
+$Source_Sans_Pro:'Source Sans Pro',
+sans-serif;
+$Hind:'Hind',sans-serif;
+$Fresa: 'Fresca',
+sans-serif;
+
+$contentBackground: #fff;
+
+$header_color: #d1d1d4;
+$header_txt_color:#d1d1d4;
+
+$btn_color:#989898;
+
+$h2_main_color:#000;
+
+$section_tours_color:#9595a5;
+
+$bg_block_reviews:#8c6e79;
+$color_block_reviews:#cba2b0;
+
+$bg_section_find_tour:#8696a2;
+$input_color:#787d88;
+$h2_section_find_tour:#95aec0;
+
+$bg_footer:#3d5484;
+$footer_txt_color:#659afe;
+$copy_footer_txt_color:#16316b;
+
+
+%flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin tour_img {
+    width: 250px;
+
+}
+$background_img:url(../img/0.jpg);
+

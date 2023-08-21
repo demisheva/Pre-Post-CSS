@@ -1,0 +1,222 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $header_color;
+}
+
+body {
+    background: #fff;
+    margin: 0 auto;
+    font-family: $Source_Sans_Pro;
+    font-size: 16px;
+}
+
+header{
+    background-image: $background_img;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 30px 0;
+    border-radius: 0px 50% 50% 0;
+    color: $header_color;
+
+    nav{
+
+        ul{ 
+            @extend %flex_row;
+            width: 65%;
+            padding: 50px 0 0 0;
+            font-size: 1.5rem;
+            margin: 0;
+            text-align: center;
+        
+            li{
+                list-style: none;
+            }
+        }
+    }
+
+    .header_txt{
+            width: 60%;
+            text-align: center;
+            margin: 225px auto 0 auto;
+            color:$header_txt_color;
+
+            h1{
+                font-weight: 100;
+                font-size: 3rem;
+                line-height: 4rem;
+            }
+        }
+
+    button{
+        margin: 40px auto;
+        display: block;
+        padding: 15px 30px;
+        background: transparent;
+        border: 1px solid $btn_color;
+        cursor: pointer;
+        color: $btn_color;
+    }
+}
+
+main{
+    font-family: $Hind;
+
+    h2{
+        line-height: 4rem;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 200;
+        padding: 25px 0;
+        color: $h2_main_color;
+    }
+
+    section.tours{
+        width: 60vw;
+        margin: 0 auto;
+
+        .tour{
+            @extend %flex_row;
+            align-items: stretch;
+            color: $section_tours_color;
+            box-shadow: 0px 0px 12px 0px rgba(61, 55, 61, 0.7);
+            margin: 50px 0;
+
+            img{
+               @include tour_img;
+            }
+
+            div{
+                padding: 10px;
+                font-size: 1.1rem;
+                line-height: 1.5rem;
+
+                h3{
+                    font-size: 2rem;
+                    line-height: 4rem;
+                    font-weight: 200;
+                }
+            }
+        }
+
+    }
+
+    section.blok_reviews{
+        background-color: $bg_block_reviews;;
+        margin: 0 130px;
+        padding: 20px;
+
+        h2{
+            color: $color_block_reviews;
+        }
+
+        .reviews{
+            @extend %flex_row;
+            column-gap: 20px;
+            color: #fff;
+
+        .review{
+                @extend %flex_row;
+                background-color: $color_block_reviews;
+                column-gap: 25px;
+                line-height: 1.5rem;
+                padding: 10px;
+
+                img{
+                    width: 100px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    section.find_tour{
+        background-color: $bg_section_find_tour;
+        margin: 30px 220px;
+        padding: 20px;
+
+        h2{
+            color: $h2_section_find_tour;
+            font-size: 1.5rem;
+            padding: 0;
+        }
+        form{
+            color:$input_color;
+            display: flex;
+            column-gap: 20px;
+            justify-content: space-evenly;
+
+            input{
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid $input_color;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: $bg_footer;
+    @extend %flex_row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    color: $footer_txt_color;
+
+
+    h3{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    img{
+        height: 30px;
+    }
+
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+    .folow_us{
+
+        .social_icons{
+            display: flex;
+            column-gap: 15px;
+            padding: 20px 0;
+        }
+        p{
+            color:$copy_footer_txt_color
+        }
+    }
+
+    .feedback_paymant{
+
+        .feedback{
+            form{
+                row-gap: 12px;
+                display: flex;
+                flex-direction: column;
+
+                button{
+                    background-color: #000;
+                    color:#fff;
+                }
+            }
+
+        }
+
+        .paymant{
+            display: flex;
+            column-gap: 15px;
+            padding: 20px 0;
+        }
+
+    }
+
+}
